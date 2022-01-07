@@ -1,0 +1,19 @@
+{
+  "name":"sample",
+  "sequence_length":4206,
+  "mode":"chromatic",
+  "offset":0,
+  "interval_weights":[1,8,1,1,1,1,1],
+  "ch_interval_weights":[1,1,1,1,1,1,1,1,1,1,1],
+  "octave_weights":[0,0,0,0,16,4,0,0,0,0,0],
+  "sequence_probability":[100,100,0,100],
+  "sequence_velocity":[10,20,30,40,50,60,70,80,90,"?"],
+  "sequence_duration":[6,6,6,5,5],
+  "overall_probability":100,
+  "duration_min":7,
+  "duration_max":7,
+  "velocity_min":20,
+  "velocity_max":100,
+  "output_dir":"./output",
+  "generate_json":true
+}
