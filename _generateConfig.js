@@ -1,4 +1,6 @@
-{
+const fs = require('fs');
+
+const sampleConfig = {
   "name":"test",
   "sequence_length":256,
   "mode":"major",
@@ -41,4 +43,9 @@
   "bend_max":1.0,
   "output_dir":"./output",
   "generate_json":true
+};
+
+function generate(){
+  fs.writeFileSync('./config.json',JSON.stringify(sampleConfig, null, 2));
 }
+generate();

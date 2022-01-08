@@ -3,7 +3,7 @@ const fs = require('fs');
 module.exports = ()=>{
 
   const userLoc = process.argv[2];
-  const configLoc = './'+( userLoc ? useLoc : 'config.json');
+  const configLoc = './'+( userLoc ? userLoc : 'config.json');
   let c = {
     "name":"sample",
     "sequence_length":16,

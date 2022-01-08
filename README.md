@@ -30,3 +30,7 @@ Config file defaults to `./config.json`.
   "generate_json":true // Generate a JSON file containing a copy of the config when generating midi
 }
 ```
+
+## TODO
+Change the way octaves work when generating notes
+Cleanup
